@@ -92,7 +92,7 @@
 // console.log(str[13]); 
 // console.log(str[14]); 
 // console.log(str[15]);
- 
+
 // let index = 0 
 
 // let religion = "ISLAM" 
@@ -115,4 +115,72 @@
 // console.log(3>=3); 
 // console.log("ab" ==="ab"); 
 // console.log("ad" !== "ab"); 
-// console.log("ad" === "ad");
+// console.log("ad" === "ad"); 
+
+// let age = 10 
+// let myName = "Lua"
+// let horror = "Ужас" 
+// let actionMovie = "Боевик" 
+// let cartoon = "Мультик" 
+// if (age < 10) {
+//     console.log("Вам " + age + " лет, поэтому смотреть можно " + horror + " жанр");
+// } 
+// if (age >= 18) { 
+//     console.log("Вам " + age + " лет, поэтому смотреть можно " + actionMovie + " жанр");
+// } 
+// if (age >= 18) {
+//     console.log("Вам " + age + " лет, поэтому смотреть можно " + cartoon + " жанр");
+// } 
+
+// Chechnya 
+// let s = "Chechnya"
+
+// let i = 0
+//  console.log(s[0])
+//  console.log(s[1])
+//  console.log(s[2])
+//  console.log(s[3])
+//  console.log(s[4])
+//  console.log(s[5])
+//  console.log(s[6])
+//  console.log(s[7]) 
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]);
+// console.log(s[i++]); 
+
+// for (let i = 0; i < s.length; i++) { 
+//     console.log(s[i]);
+// }  
+
+// for (let i = 21; i < 122; i+=2) {
+//     console.log(i);
+// } 
+
+// for (let i = 2; i < 37; i++) { 
+//     if (i % 2===0) {
+//         console.log(i);
+//     }
+
+// } 
+
+// for (let i = 2; i < 37; i++) {
+//     if (i % 2 === 1) {
+//         console.log(i);
+
+
+//     }
+// } 
+
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 === 0) {
+//      console.log("Chetnoe");
+//     } else [
+//         console.log("Nechetnoe")
+//     ]
+// } 
+
