@@ -184,3 +184,66 @@
 //     ]
 // } 
 
+// let names = ["Adam", "Lee", "Ibra"]
+// for (let i = 0; i < names.length; i++) {
+//    if (names[i] === "Muhammad") {
+//         console.log("О я выиграл"); 
+//         break
+//    } 
+
+//     if (i === names.length - 1) {
+//         if (names[i] !== "Muhammad") { 
+//             console.log("Печально я проиграл");
+//         }
+//     }
+// } 
+ 
+// let names = ["Adam", "Kazbek", "Ruslan"]
+// names.push("Yusuf")
+// console.log(names); 
+// names.push("Aziz") 
+// console.log(names); 
+// names.push("Alina") 
+// console.log(names); 
+// names.pop() 
+// console.log(names); 
+// names.unshift("Sultan") 
+// console.log(names); 
+// names.shift() 
+// console.log(names);
+ 
+// добавить в начало массива = unshift 
+// добавить в конец массива = push 
+
+// удалить в начале массива = shift 
+// удалить в конце массива = pop
+
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"] 
+//     for ( let i = 0; i < names.length; i++) {
+//         let currentName = names[i]
+//         let nameLength = currentName.length
+//         let firstLetter = currentName[0] 
+//         let lastLetter = currentName[nameLength - 1]  
+//         console.log(currentName, nameLength, firstLetter, lastLetter)
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
