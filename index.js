@@ -197,7 +197,7 @@
 //         }
 //     }
 // } 
- 
+
 // let names = ["Adam", "Kazbek", "Ruslan"]
 // names.push("Yusuf")
 // console.log(names); 
@@ -211,7 +211,7 @@
 // console.log(names); 
 // names.shift() 
 // console.log(names);
- 
+
 // добавить в начало массива = unshift 
 // добавить в конец массива = push 
 
@@ -219,31 +219,55 @@
 // удалить в конце массива = pop
 
 // let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"] 
-//     for ( let i = 0; i < names.length; i++) {
-//         let currentName = names[i]
-//         let nameLength = currentName.length
-//         let firstLetter = currentName[0] 
-//         let lastLetter = currentName[nameLength - 1]  
-//         console.log(currentName, nameLength, firstLetter, lastLetter)
+// //     for ( let i = 0; i < names.length; i++) {
+// //         let currentName = names[i]
+// //         let nameLength = currentName.length
+// //         let firstLetter = currentName[0] 
+// //         let lastLetter = currentName[nameLength - 1]  
+// //         console.log(i+1 + ": " + "первая буква - " + firstLetter + ", последняя буква - " + lastLetter + ". " + "Длина имени - " + nameLength);
+// //     }
+
+//             console.log(names[names.length - 1]);
+
+
+//   let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]  
+//   let upperCaseNames = []
+//   for (let i = 0; i < names.length; i++) { 
+//     // let currentName = names[i].toUpperCase()
+//     // upperCaseNames.push(currentName)
+//     // upperCaseNames.push(names[i].toUpperCase()) 
+//   }
+//   console.log(upperCaseNames);
+
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Alibek"]
+
+//     let lowerCaseNames = [] 
+//     for (let i = 0; i < names.length; i++) {
+//         let currNames = names[i].toLowerCase() 
+//         lowerCaseNames.push(currNames) 
 //     }
+//     console.log(lowerCaseNames); 
 
+let names = ["Adam", "Lee", "Movsar", "Kazbek", "Albek"]
 
+// let mixCaseLetters = []
+// for (let i = 0; i < names.length; i++) {
+//     if (i % 2 === 0) {
+//         mixCaseLetters.push(names[i].toUpperCase())
+//     } else if (i % 2 !== 0) {
+//         mixCaseLetters.push(names[i].toLowerCase())
+//     }
+// }
+// console.log(mixCaseLetters);  
 
+    //     let diffNamesLenght = [] 
 
+    // for (let i = 0; i < names.length; i++) {
+    //     if (names[i].length % 2 !== 0) {
+    //         console.log(names[i]);
 
+    //     }
+    // }
+    // console.log(diffNamesLenght); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
