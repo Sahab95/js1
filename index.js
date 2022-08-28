@@ -248,7 +248,7 @@
 //     }
 //     console.log(lowerCaseNames); 
 
-let names = ["Adam", "Lee", "Movsar", "Kazbek", "Albek"]
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Albek"]
 
 // let mixCaseLetters = []
 // for (let i = 0; i < names.length; i++) {
@@ -260,14 +260,54 @@ let names = ["Adam", "Lee", "Movsar", "Kazbek", "Albek"]
 // }
 // console.log(mixCaseLetters);  
 
-    //     let diffNamesLenght = [] 
+// let diffNamesLenght = []
 
-    // for (let i = 0; i < names.length; i++) {
-    //     if (names[i].length % 2 !== 0) {
-    //         console.log(names[i]);
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i].length % 2 !== 0) {
+//         console.log(names[i]);
+//         diffNamesLenght.push(names[i])
 
-    //     }
-    // }
-    // console.log(diffNamesLenght); 
+//     }
+// }
+// console.log(diffNamesLenght); 
 
-   
+// let names = ["Adam", "Lee", "Movsar", "Kazbek", "Albek"]
+// let lastUpperCase = []
+// for (let i = 0; i < names.length; i++) {
+//     let nameStart = names[i].substring(0, names[i].length - 1)
+//     let lastLetter = names[i][names[i].length - 1]
+//     lastUpperCase.push(nameStart + lastLetter.toUpperCase());
+// }
+// console.log(lastUpperCase);
+
+// let names = ["Adam", "Lee", "Movsarbek", "Kazbek", "Albek"] 
+// let evenIndexesToUpperCase = [] 
+
+//     for (let i = 0; i < names.length; i++) {
+//         let changedName = "" 
+
+//         if (i % 2 === 0) {
+
+//             for (let j = 0; j < names[i].length; j++) {
+//                     if (j % 2 === 0) {
+//                         changedName += names[i][j].toUpperCase() 
+
+//                     } else {
+//                         changedName += names[i][j]
+//                     }
+//             } evenIndexesToUpperCase.push(changedName)
+//         } else {
+//             evenIndexesToUpperCase.push(names[i])
+//         }
+//     } 
+
+//     console.log(evenIndexesToUpperCase); 
+
+// let nums = [1, 2, 0, 8, 3, 9, 11]
+// let newNums = []
+// for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] % 2 === 1) {
+//         newNums.push(nums[i])
+//     }
+// }
+// console.log(newNums);
