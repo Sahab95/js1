@@ -310,4 +310,71 @@
 //         newNums.push(nums[i])
 //     }
 // }
-// console.log(newNums);
+// console.log(newNums); 
+
+// let a = []
+// let b = []
+// let d = []
+// let other = []
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Supyan", "Selima", "Yakub"]
+
+// for (let i = 0; i < names.length; i++) {
+//     let currentName = names[i]
+//     if (currentName[0] === "A") {
+//         a.push(names[i])
+//     } else if (currentName[0] === "B") {
+//         b.push(names[i]) 
+//     } else if (currentName[0] === "D") {
+//         d.push(names[i])
+//     } else {
+//         other.push(currentName.toUpperCase())
+//     }
+
+// }
+// console.log("a ===", a);
+// console.log("b ===", b);
+// console.log("d ===", d); 
+// console.log("other ===", other); 
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Mo", "Supyan", "Selima", "Yakub"]
+// let shortNames = []
+// for (let i = 0; i < names.length; i++) {
+//     let str = ""
+//     let firstLetter = names[i][0]
+//     let lastLetter = names[i][names[i].length - 1]
+
+//     if (names[i].length <= 2) {
+//         shortNames.push(names[i])
+//     }
+
+//     if (names[i].length >= 3) {
+//         str += firstLetter + " - " + lastLetter
+//         shortNames.push(str)
+//     }
+
+// }
+// console.log(shortNames); 
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Mo", "Supyan", "Selima", "Yakub"]
+// let goBackword = []
+// for (let i = names.length - 1; i >= 0; i--) {
+//     goBackword.push(names[i])
+// }
+// console.log(goBackword);
+
+// let names = ["Ali", "Baudi", "Daud", "Khavazh", "Bislan", "Adlan", "Mo", "Supyan", "Selima", "Yakub"]
+// let goBackName = []
+// for (let i = names.length - 1; i >= 0; i--) {
+//     let str = ""
+//     for (let j = names[i].length - 1; j >= 0; j--) {
+//         if (j === names[i].length - 1)
+//             str += names[i][j].toLocaleUpperCase()
+//         else {
+//             str += names[i][j].toLowerCase()
+//         }
+//     }
+//     goBackName.push(str)
+// }
+
+// console.log(goBackName);
